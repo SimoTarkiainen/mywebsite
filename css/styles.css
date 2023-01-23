@@ -1,0 +1,59 @@
+.div2{
+    color: black;
+    
+    font-size:16px;
+    width: 400px;
+    position:relative ;
+    left: 1000px;
+    z-index:2;
+}
+.div1{
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:25px;
+    width: 1000px;
+    position: relative;
+    left: 5px;
+    padding: 25px;
+    z-index:2;
+    
+
+}
+#meme{
+    display: flex;
+    flex-direction: column;
+    min-height: vh;
+    z-index: 2 ;
+    
+}
+#background{
+    width:1000px;
+    height:1000px;
+    position: absolute;
+    background-color: bisque;
+    z-index:1 ; 
+}
+.bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    
+  }
+  .bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+  #myHeader {
+    color: rgb(94, 89, 89);
+    padding: 20px;
+    left: 5000;
+    
+  }
